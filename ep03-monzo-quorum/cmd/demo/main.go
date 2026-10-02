@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	quorum "github.com/jhhtaylor/outage-autopsies/ep03-monzo-quorum"
+	quorum "github.com/jhhtaylor/distributed-systems-deep-dive/ep03-monzo-quorum"
 )
 
 const accounts = 2000

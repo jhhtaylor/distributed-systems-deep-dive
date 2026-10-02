@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	rbs "github.com/jhhtaylor/outage-autopsies/ep01-rbs-batch-vs-queue"
+	rbs "github.com/jhhtaylor/distributed-systems-deep-dive/ep01-rbs-batch-vs-queue"
 )
 
 func main() {

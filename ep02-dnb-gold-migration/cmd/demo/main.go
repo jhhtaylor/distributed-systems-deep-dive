@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	migration "github.com/jhhtaylor/outage-autopsies/ep02-dnb-gold-migration"
+	migration "github.com/jhhtaylor/distributed-systems-deep-dive/ep02-dnb-gold-migration"
 )
 
 func vaults() (*migration.Vault, *migration.Vault) {
