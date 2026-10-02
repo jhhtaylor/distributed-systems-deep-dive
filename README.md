@@ -1,6 +1,6 @@
-# Outage Autopsies
+# Distributed Systems Deep Dive
 
-Code for my YouTube videos, where I take apart real software outages and banking stories and look at what actually broke underneath. One folder per episode, each with a small runnable model of the mechanism and tests that pin down the behaviour shown in the video.
+Code for my YouTube videos about how real systems work underneath the headlines: outages, banking stories, and new developments in databases and infrastructure. One folder per episode, each with a small runnable model of the mechanism and tests that pin down the behaviour shown in the video.
 
 Channel: [youtube.com/@jhhtaylor](https://www.youtube.com/@jhhtaylor)
 
@@ -21,4 +21,4 @@ go run ./ep03-monzo-quorum/cmd/demo        # one episode's demo
 
 ## A note on accuracy
 
-None of these companies' real code is public, so each model is a reconstruction of the mechanism described in their postmortems and public reporting, simplified to what's needed to see the failure. Each episode's README links to the sources.
+Where a company's real code isn't public, the model is a reconstruction of the mechanism described in their postmortems and public reporting, simplified to what's needed to see it work (or fail). Each episode's README says which it is and links to the sources.
